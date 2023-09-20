@@ -1,0 +1,8 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	x_pos [fillcolor=lightgray shape=box style=filled]
+	y_pos [fillcolor=lightgray shape=box style=filled]
+	"No Jump" [fillcolor=lightblue style=filled]
+	Jump [fillcolor=lightblue style=filled]
+	y_pos -> Jump [color=red penwidth=0.8823088010668486 style=solid]
+}
